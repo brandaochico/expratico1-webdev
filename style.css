@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: rgba(35, 177, 120, 0.75);;
+    background-color: rgba(35, 177, 120, 0.75);
     font-family: 'Montserrat';
 }
 
@@ -26,8 +26,10 @@ div {
 }
 
 h2 {
-    color: rgb(35, 177, 120);
+    color: rgb(24, 24, 77);
     text-shadow: 1px 1px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px rgba(0,0,0,0.75);
+    padding: 10px;
 }
 
 img#logo{
@@ -76,6 +78,9 @@ h3#subtitulo{
     margin-right: auto;
     font-family: 'Montserrat';
     font-weight: normal;
+    box-shadow: -1px 1px 3px rgba(0,0,0,0.75);
+    padding: 10px;
+    background-color: antiquewhite;
 }
 
 table#tipos{
@@ -107,4 +112,16 @@ table#tipos td{
 
 li{
     padding: 5px;
+}
+
+div#importancia span a{
+    color: rgb(35, 177, 120);
+}
+
+div#hemocentros p a{
+    color: rgb(35, 177, 120);
+}
+
+div#referencias ul li a{
+    color: rgb(35, 177, 120);
 }
