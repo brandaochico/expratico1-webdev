@@ -61,8 +61,9 @@ header a{
     text-transform: uppercase;
     color: black;
     text-align: center;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 0px 1px 3px black;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 header a:hover{
@@ -78,7 +79,7 @@ h3#subtitulo{
     margin-right: auto;
     font-family: 'Montserrat';
     font-weight: normal;
-    box-shadow: -1px 1px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.75);
     padding: 10px;
     background-color: antiquewhite;
 }
