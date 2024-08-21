@@ -89,7 +89,7 @@ table#tipos{
     border-spacing: 0px;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 table#tipos h2{
@@ -100,6 +100,9 @@ table#tipos h2{
 table#tipos th{
     border: 1px solid black;
     padding: 10px;
+    background-color: rgba(35, 177, 120, 0.75);
+    color: white;
+    font-weight: bolder;
 }
 
 table#tipos tr td{
