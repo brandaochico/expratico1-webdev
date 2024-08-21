@@ -27,13 +27,15 @@ input, select, label {
 }
 
 section{
-    box-shadow: 1px 1px 3px black;
+    box-shadow: 1px 1px 5px black;
     padding: 10px;
     background-color: white;
+    margin-bottom: 10px;
 }
 
 header{
     background-color: white;
+    color: rgb(24, 24, 77);
     text-align: center;
     padding: 15px;
     box-shadow: 1px 1px 3px black;
@@ -61,6 +63,9 @@ textarea#obs {
 }
 
 input#submit{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(35, 177, 120);
     margin-left: 400px;
     width: 100px;
     height: 50px;
@@ -70,7 +75,20 @@ input#submit{
 
 input#submit:hover{
     color: white;
-    background-color: darkgray;
+    background-color: rgb(24, 24, 77);
     transition: background-color 0.5s;
 }
 
+input#birth, .styled{
+    color: darkgrey;
+}
+
+input#birth:valid, .styled:valid{
+    color: black;
+}
+
+footer img{
+    width: 200px;
+    background-color: white;
+    margin-left: 850px;
+}
