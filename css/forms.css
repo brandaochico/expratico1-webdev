@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url(_fonts/MuseoModerno-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(_fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: rgba(35, 177, 120, 0.75);
+    font-family: 'Montserrat';
+}
+
+div#main {
+    margin: -20px auto 10px auto;
+    width: 900px;
+    box-shadow: 0 0 10px black;
+    padding: 15px;
+    background-color:antiquewhite;
+}
+
+input, select, label {
+    margin: 15px 0px;
+    padding: 5px;
+}
+
+section{
+    box-shadow: 1px 1px 3px black;
+    padding: 10px;
+    background-color: white;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 1px 1px 3px black;
+    border-bottom: 3px dotted black;
+}
+
+div#radio label, div#checkbox label{
+    margin: 0px;
+}
+
+div#radio input, div#checkbox input {
+    margin-left: 30px;
+}
+
+::placeholder{
+    font-family: 'Montserrat';
+}
+
+label#obs{
+    float: left;
+}
+
+textarea#obs {
+    margin-left: 125px;
+}
+
+input#submit{
+    margin-left: 400px;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    box-shadow: 1px 1px 3px black;
+}
+
+input#submit:hover{
+    color: white;
+    background-color: darkgray;
+    transition: background-color 0.5s;
+}
+
